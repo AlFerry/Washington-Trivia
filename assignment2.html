@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>A2: Cities of WA Game</title>
+<script type="text/javascript" src="cities.js"></script>
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+<body>
+<div class="container">
+<form name="form1">
+	<table class=tab>
+		<tr>
+        	<td class="darkerBackground">
+            	<h2>BIT116: Assignment 2<br>
+                    Alyssa Ferry</h2>
+            </td>
+      	</tr>
+        <tr>
+        	<td><img src="washington.png" alt="Cities of Washington">
+            </td>
+      	</tr>
+        <tr>
+			<td class=td1>
+				<input type=text name=hint id=hint value="Enter a City name below and click Guess button" readonly class=txt1>
+			</td>
+		</tr>
+		<tr>
+			<td class=td1>
+				<input type=text name=guess1 id=guess1 class=txt2 title="Guess Here">
+			</td>
+		</tr>
+		<tr>
+		
+			<td class=td1 align=right>
+				<input type=button value=Guess onClick=guessIt() class=btn title="Click here to get a hint or check your guess.">
+				<input type=button value=Clear onClick=clearBox() class=btn title="Click here to clear the text box.">
+				<input type=button value=New onClick=newGame() class=btn title="Click here to start a new game.">
+                <input type=text name=numOfTries id=numOfTries value="tries" readonly class=txt1>
+		
+			</td>
+		</tr>
+	</table>
+</form>
+</div>
+</body>
+</html>
